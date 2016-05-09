@@ -5,9 +5,6 @@ Update 2 to check DiffTool configgurations
 
 tanjs
 
-<<<<<<< HEAD
-adding from master
-=======
-updates from update branch
+Updaet from Branch
 >>>>>>> update1
 Update 2 from aster
