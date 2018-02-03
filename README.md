@@ -151,15 +151,15 @@ curl -u root:password -X GET --header 'Accept: application/json' 'http://localho
 
 Here we have 5 different APIs
 
-`GET city/` : Get All the Cities
+* `GET city/` : Get All the Cities
 
-`POST city/` : Create a New City.
+* `POST city/` : Create a New City.
 
-`PUT city/` : Update an existing city .
+* `PUT city/` : Update an existing city .
 
-`DELETE city/{id}` : Delete an existing city .
+* `DELETE city/{id}` : Delete an existing city .
 
-`GET city/{id}` : Get all cities by name.
+* `GET city/{id}` : Get all cities by name.
 
 
 
