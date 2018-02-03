@@ -88,7 +88,7 @@ password : password
 - Scroll Down to see the results.
 ```
 
-`You can also try it with CURL`
+You can also try it with CURL
 ```shell
 curl -u root:password -X GET --header 'Accept: application/json' 'http://localhost:8080/DummyApp/hello/'
 ```
@@ -105,7 +105,7 @@ curl -u root:password -X GET --header 'Accept: application/json' 'http://localho
 - Scroll Down to see the results.
 ```
 
-`You can also try it with CURL`
+You can also try it with CURL
 
 ```shell
 curl -u root:password -X POST --header 'Accept: application/json' -d 'Test' 'http://localhost:8080/DummyApp/count'
@@ -124,7 +124,7 @@ curl -u root:password -X POST --header 'Accept: application/json' -d 'Test' 'htt
 - Scroll Down to see the results.
 ```
 
-`You can also try it with CURL`
+You can also try it with CURL
 ```shell
 curl -u root:password  -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' 'http://localhost:8080/DummyApp/number/fibonacci/3'
 ```
@@ -138,7 +138,7 @@ curl -u root:password  -X POST --header 'Content-Type: application/json' --heade
 - Scroll Down to see the results.
 ```
 
-`You can also try it with CURL`
+You can also try it with CURL
 
 ```shell
 curl -u root:password -X GET --header 'Accept: application/json' 'http://localhost:8080/DummyApp/producerconsumer/'
@@ -164,7 +164,7 @@ after then click on `Try it out!`
 Scroll Down to see the results.
 
 ```
-`You can also try it with CURL`
+You can also try it with CURL
 
 ```shell
 curl -u root:password -X GET --header 'Accept: application/json' 'http://localhost:8080/DummyApp/city'
@@ -173,7 +173,7 @@ curl -u root:password -X GET --header 'Accept: application/json' 'http://localho
 * `POST city/` : Create a New City.
 > Ceate a City :
 
-`Click on POST /city , On city text Box supply your json as below `
+Click on `POST /city` , On city text Box supply your json as below 
 
 ```shell
 {
