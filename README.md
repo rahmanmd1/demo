@@ -182,7 +182,7 @@ Click on `POST /city` , On city text Box supply your json as below
   "totalPopulation": 1200
 }
 ```
-> after then click on `Try it out!`, Scroll Down to see the results.
+>  after then click on `Try it out!`, Scroll Down to see the results.
 
 With CURL : 
 
