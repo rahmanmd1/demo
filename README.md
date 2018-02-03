@@ -141,7 +141,6 @@ curl -u root:password -X GET --header 'Accept: application/json' 'http://localho
 > On the UI hover over and click  REQ [ 6 ] External API  and
 
 > We have Three different APIs
-
 >>/externaldata/
 
 >>/externaldata/post/{id}
