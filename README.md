@@ -181,6 +181,8 @@ Click on `POST /city` , On city text Box supply your json as below
   "name": "Foo bar",
   "totalPopulation": 1200
 }
+```
+> after then click on `Try it out!`, Scroll Down to see the results.
 
 
 * `PUT city/` : Update an existing city .
