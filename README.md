@@ -86,8 +86,9 @@ password : password
 > Scroll Down to see the results.
 
 `If you dont like the UI, you can test it through CURL`
-> curl -u root:password -X GET --header 'Accept: application/json' 'http://localhost:8080/DummyApp/hello/'
-
+```shell
+curl -u root:password -X GET --header 'Accept: application/json' 'http://localhost:8080/DummyApp/hello/'
+```
 ### Testing REQ [ 2 ] : Testing unique words and thier counts / frequencies.
 
 > On the UI hover over and click  REQ [ 2 ] Frequency processing API and 
@@ -95,9 +96,11 @@ password : password
 > Here we have two parameters : 'sort' is defaulted to 'asc' . On the 'text' Text box supply your text 
 > after then click on `Try it out!`
 > Scroll Down to see the results.
-`If you dont like the UI, you can test it through CURL`
-> curl -u root:password -X POST --header 'Accept: application/json' -d 'Test' 'http://localhost:8080/DummyApp/count'
 
+`If you dont like the UI, you can test it through CURL`
+```shell
+curl -u root:password -X POST --header 'Accept: application/json' -d 'Test' 'http://localhost:8080/DummyApp/count'
+```
 **Badges will go here**
 
 - build status
