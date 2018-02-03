@@ -199,10 +199,52 @@ curl -u root:password -X POST --header 'Content-Type: application/json' --header
 
 * `PUT city/` : Update an existing city .
 
+Click on `PUT /city` , On dto text Box supply your json as below 
+
+```shell
+{
+  "code":1,
+  "description": "My city",
+  "name": "Foo bar",
+  "totalPopulation": 1200
+}
+```
+>  after then click on `Try it out!`, Scroll Down to see the results.
+
+With CURL : 
+
+```shell
+
+curl -u root:password -X PUT --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ \ 
+   "code": 1, \
+   "description": "test", \ 
+   "name": "test", \ 
+   "totalPopulation": 1 \ 
+ }'
+
+```
+
 * `DELETE city/{id}` : Delete an existing city .
+Click on `DELETE /city/{id}`, on the id text box supply city id
+>  after then click on `Try it out!`, Scroll Down to see the results.
+With CURL : 
 
+```shell
+
+curl -u root:password -X DELETE --header 'Accept: application/json' 'http://localhost:8080/DummyApp/city/1'
+
+```
 * `GET city/{id}` : Get all cities by name.
+Click on `GET /city/{name}`.  On name text Box supply your city name (e.g KC) to query 
+>  after then click on `Try it out!`, Scroll Down to see the results.
 
+With CURL : 
+
+```shell
+
+curl -u root:password -X GET --header 'Accept: application/json' 'http://localhost:8080/DummyApp/city/KC'
+
+```
 
 
 ## Testing REQ [ 6 ] : queries an external REST service using Spring RestTemplate.
