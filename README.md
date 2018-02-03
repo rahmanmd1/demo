@@ -4,7 +4,24 @@
 
 ***INSERT GRAPHIC HERE (include hyperlink in image)***
 
+
 # Dummy Application
+===============================
+[![Apache License 2](https://img.shields.io/badge/license-ASF2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0.txt)
+[![Build Status](https://travis-ci.org/codecentric/spring-boot-admin.svg?branch=master)]
+
+## Table of Contents
+
+> If you're `README` has a lot of info, section headers might be nice.
+
+- [Features](#installation)
+- [Setup and Installation](#features)
+- [API Documentation](#contributing)
+- [FAQ](#faq)
+- [License](#license)
+
+## Features
+
 This application Supports Following Features: 
 * Create, Read, Update, Delete City ( Entity )
 * Accepts a number, N, and returns a JSON array with the first N Fibonacci numbers
@@ -15,7 +32,7 @@ This application Supports Following Features:
 * View thread dump.
 * View Metrcis.
 * View Application health.
-* User can request for either json or xml response.
+* Content Negotiation : User can request for either json or xml response.
 * A Complete UI to test all API
 
 
