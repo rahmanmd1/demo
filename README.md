@@ -144,6 +144,25 @@ curl -u root:password  -X POST --header 'Content-Type: application/json' --heade
 curl -u root:password -X GET --header 'Accept: application/json' 'http://localhost:8080/DummyApp/producerconsumer/'
 ```
 
+## Testing REQ [ 5 ] : Endpoints that add, query, and delete rows in a database
+```shell
+- On the UI hover over and click  REQ [ 5 ] City API to perform CRUD operation  and
+```
+
+Here we have 5 different APIs
+
+`GET city/` : Get All the Cities
+
+`POST city/` : Create a New City.
+
+`PUT city/` : Update an existing city .
+
+`DELETE city/{id}` : Delete an existing city .
+
+`GET city/{id}` : Get all cities by name.
+
+
+
 ## Testing REQ [ 6 ] : queries an external REST service using Spring RestTemplate.
 ```shell
 - On the UI hover over and click  REQ [ 6 ] External API  and
