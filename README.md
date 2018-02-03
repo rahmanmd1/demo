@@ -63,11 +63,25 @@ Import the maven prjoject on your IDE
 ```shell
 Right click : Run as Maven clean
 Right click : Run as Maven install
-Right click : Run as Spring BootApp
+Right click : Run as Spring Boot App
 
 ```
-`If Evrything goes well Application will be running on port 8080` and applcation root context will be : <a href="http://localhost:8080/DummyApp/">App</a>
+`If Everything goes well, Application will be running on port 8080` and applcation root context will be : <a href="http://localhost:8080/DummyApp/">App</a>
 
+## API Documentation
+
+> The best way to test the API is through the swagger UI : 
+
+<a href="http://localhost:8080/DummyApp/swagger-ui.html">Api Testing Page</a>
+
+> When propmted for authetication provide 
+```shell
+user name : root
+password : password
+```
+### Testing REQ#1 : "Hello World" REST endpoint
+> On the UI hover over and click  "REQ [ 1 ] Hello World API : Hello World Resource" and 
+>> click on `GET` after then click on `Try it out!`
 
 
 
