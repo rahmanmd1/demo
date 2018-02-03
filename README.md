@@ -70,7 +70,7 @@ Right click : Run as Spring Boot App
 
 ## API Documentation
 
-> The best way to test the API is through the swagger UI : 
+> The best way to test the API is through the swagger UI, click the Link below : 
 
 <a href="http://localhost:8080/DummyApp/swagger-ui.html">Api Testing Page</a>
 
@@ -79,11 +79,24 @@ Right click : Run as Spring Boot App
 user name : root
 password : password
 ```
-### Testing REQ#1 : "Hello World" REST endpoint
+### Testing REQ [ 1 ] : "Hello World" REST endpoint
+
 > On the UI hover over and click  "REQ [ 1 ] Hello World API : Hello World Resource" and 
->> click on `GET` after then click on `Try it out!`
+> click on `GET` after then click on `Try it out!`
+> Scroll Down to see the results.
 
+`If you dont like the UI, you can test it through CURL`
+> curl -u root:password -X GET --header 'Accept: application/json' 'http://localhost:8080/DummyApp/hello/'
 
+### Testing REQ [ 2 ] : Testing unique words and thier counts / frequencies.
+
+> On the UI hover over and click  REQ [ 2 ] Frequency processing API and 
+> click on `POST` 
+> Here we have two parameters : 'sort' is defaulted to 'asc' . On the 'text' Text box supply your text 
+> after then click on `Try it out!`
+> Scroll Down to see the results.
+`If you dont like the UI, you can test it through CURL`
+> curl -u root:password -X POST --header 'Accept: application/json' -d 'Test' 'http://localhost:8080/DummyApp/count'
 
 **Badges will go here**
 
