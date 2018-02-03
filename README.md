@@ -140,10 +140,17 @@ curl -u root:password -X GET --header 'Accept: application/json' 'http://localho
 ## Testing REQ [ 6 ] : queries an external REST service using Spring RestTemplate.
 > On the UI hover over and click  REQ [ 6 ] External API  and
 
-> We have Three different APIs
->>/externaldata/
->>/externaldata/post/{id}
->>/externaldata/post/{userid}
+We have Three different APIs
+`/externaldata/` : Get All the POST
+`/externaldata/post/{id}` : Get a POST using ID
+`/externaldata/post/{userid}` : Get All posts for an individual userid.
+To test any of the API mentioned above :
+
+> Clik on it ( e.g `/externaldata/` )
+
+> after then click on `Try it out!`
+
+> Scroll Down to see the results.
 
 
 **Badges will go here**
