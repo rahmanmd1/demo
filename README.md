@@ -153,6 +153,29 @@ Here we have 5 different APIs
 
 * `GET city/` : Get All the Cities
 
+> Getting All the Cities :
+
+```shell
+
+Click on GET /city
+
+after then click on `Try it out!`
+
+Scroll Down to see the results.
+
+```
+
+> Ceate a City :
+
+```shell
+
+Click on POST /city
+
+On city text Box supply your json as below
+
+```
+
+
 * `POST city/` : Create a New City.
 
 * `PUT city/` : Update an existing city .
