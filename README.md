@@ -4,13 +4,20 @@
 
 ***INSERT GRAPHIC HERE (include hyperlink in image)***
 
-# Repository Title Goes Here
+# Dummy Application
+This application Supports Following Features: 
+* Create, Read, Update, Delete City ( Entity )
+* Accepts a number, N, and returns a JSON array with the first N Fibonacci numbers
+* Basic Hello world REST end point to get a 'Hello world' message.
+* Simulate Deadlock situation.
+* REST endpoint that accepts a JSON object containing a paragraph of text and returns a JSON array of objects. Also user has the flexibility to set ascending or descendng order. Default is asc.
+* A REST endpoint that queries an external REST service.
+* View thread dump.
+* View Metrcis.
+* View Application health.
+* User can request for either json or xml response.
+* A Complete UI to test all API
 
-> Subtitle or Short Description Goes Here
-
-> ideally one sentence
-
-> include terms/tags that can be searched
 
 **Badges will go here**
 
