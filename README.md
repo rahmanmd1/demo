@@ -82,7 +82,9 @@ password : password
 ### Testing REQ [ 1 ] : "Hello World" REST endpoint
 
 > On the UI hover over and click  "REQ [ 1 ] Hello World API : Hello World Resource" and 
+
 > click on `GET` after then click on `Try it out!`
+
 > Scroll Down to see the results.
 
 `You can also try it with CURL`
