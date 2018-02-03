@@ -149,8 +149,11 @@ curl -u root:password -X GET --header 'Accept: application/json' 'http://localho
 - On the UI hover over and click  REQ [ 6 ] External API  and
 ```
 We have Three different APIs
+
 `externaldata/` : Get All the POST
+
 `externaldata/post/{id}` : Get a POST using ID
+
 `externaldata/post/{userid}` : Get All posts for an individual userid.
 
 To test any of the API mentioned above :
