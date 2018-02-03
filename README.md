@@ -4,8 +4,6 @@
 
 ## Table of Contents
 
-> If you're `README` has a lot of info, section headers might be nice.
-
 - [Features](#installation)
 - [Setup and Installation](#features)
 - [API Documentation](#contributing)
@@ -19,13 +17,58 @@ This application Supports Following Features:
 * Accepts a number, N, and returns a JSON array with the first N Fibonacci numbers
 * Basic Hello world REST end point to get a 'Hello world' message.
 * Simulate Deadlock situation.
-* REST endpoint that accepts a JSON object containing a paragraph of text and returns a JSON array of objects. Also user has the flexibility to set ascending or descendng order. Default is asc.
+* REST endpoint that accepts a JSON object containing a paragraph of text and returns a JSON array of objects in order. Also has the flexibility to set ascending or descendng order. Default is asc.
 * A REST endpoint that queries an external REST service.
 * View thread dump.
 * View Metrcis.
 * View Application health.
 * Content Negotiation : User can request for either json or xml response.
 * A Complete UI to test all API
+
+## Technology Stack
+
+* Spring
+* Spring Boot
+* HSQL
+* Swagger
+* Junit, Mockito
+* JaCoCo
+* JDK 1.8+
+
+## Setup and Installation.
+
+### Clone
+
+- Clone this repo to your local machine using :  
+
+### Setup
+
+#### Run the Application with Maven plugin
+
+> Go to root folder, open terminal and run following command
+
+```shell
+$ mvn clean install
+```
+
+> After then start the Aplication
+
+```shell
+$ mvn spring-boot:run
+
+```
+#### Run the Application with IDE
+Import the maven prjoject on your IDE
+
+```shell
+Right click : Run as Maven clean
+Right click : Run as Maven install
+Right click : Run as Spring BootApp
+
+```
+`If Evrything goes well Application will be running on port 8080` and applcation root context will be : <a href="http://localhost:8080/DummyApp/">App</a>
+
+
 
 
 **Badges will go here**
