@@ -143,7 +143,9 @@ curl -u root:password -X GET --header 'Accept: application/json' 'http://localho
 > We have Three different APIs
 
 >>/externaldata/
+
 >>/externaldata/post/{id}
+
 >>/externaldata/post/{userid}
 
 
