@@ -149,9 +149,10 @@ curl -u root:password -X GET --header 'Accept: application/json' 'http://localho
 - On the UI hover over and click  REQ [ 6 ] External API  and
 
 We have Three different APIs
-`/externaldata/` : Get All the POST
-`/externaldata/post/{id}` : Get a POST using ID
-`/externaldata/post/{userid}` : Get All posts for an individual userid.
+- - externaldata/` : Get All the POST
+- - externaldata/post/{id} : Get a POST using ID
+- - externaldata/post/{userid} : Get All posts for an individual userid.
+
 To test any of the API mentioned above :
 
 - Clik on it ( e.g `/externaldata/` )
@@ -160,7 +161,11 @@ To test any of the API mentioned above :
 
 - Scroll Down to see the results.
 ```
+`You can also try it with CURL`
 
+```shell
+curl -u root:password -X GET --header 'Accept: application/json' 'http://localhost:8080/DummyApp/externaldata/'
+```
 
 **Badges will go here**
 
