@@ -93,7 +93,7 @@ password : password
 curl -u root:password -X GET --header 'Accept: application/json' 'http://localhost:8080/DummyApp/hello/'
 ```
 ### Testing REQ [ 2 ] : Testing unique words and thier counts / frequencies.
-
+```shell
 - On the UI hover over and click  REQ [ 2 ] Frequency processing API and 
 
 - click on `POST` 
@@ -103,22 +103,26 @@ curl -u root:password -X GET --header 'Accept: application/json' 'http://localho
 - after then click on `Try it out!`
 
 - Scroll Down to see the results.
+```
 
 `You can also try it with CURL`
+
 ```shell
 curl -u root:password -X POST --header 'Accept: application/json' -d 'Test' 'http://localhost:8080/DummyApp/count'
 ```
 
 ### Testing REQ [ 3 ] : Returns a JSON array with the first N Fibonacci numbers.
-> On the UI hover over and click  REQ [ 3 ] Number Utility API and 
+```shell
+- On the UI hover over and click  REQ [ 3 ] Number Utility API and 
 
-> click on `POST` 
+- click on `POST` 
 
-> on the fiboNumber text Box supply your number and
+- on the fiboNumber text Box supply your number and
 
-> after then click on `Try it out!`
+- after then click on `Try it out!`
 
-> Scroll Down to see the results.
+- Scroll Down to see the results.
+```
 
 `You can also try it with CURL`
 ```shell
@@ -126,11 +130,13 @@ curl -u root:password  -X POST --header 'Content-Type: application/json' --heade
 ```
 
 ## Testing REQ [ 4 ] : Endpoint that creates two threads that become deadlocked with each other.
-> On the UI hover over and click  REQ [ 4 ] Consumer Producer API  and 
+```shell
+- On the UI hover over and click  REQ [ 4 ] Consumer Producer API  and 
 
-> after then click on `Try it out!`
+- after then click on `Try it out!`
 
-> Scroll Down to see the results.
+- Scroll Down to see the results.
+```
 
 `You can also try it with CURL`
 
@@ -139,7 +145,8 @@ curl -u root:password -X GET --header 'Accept: application/json' 'http://localho
 ```
 
 ## Testing REQ [ 6 ] : queries an external REST service using Spring RestTemplate.
-> On the UI hover over and click  REQ [ 6 ] External API  and
+```shell
+- On the UI hover over and click  REQ [ 6 ] External API  and
 
 We have Three different APIs
 `/externaldata/` : Get All the POST
@@ -147,11 +154,12 @@ We have Three different APIs
 `/externaldata/post/{userid}` : Get All posts for an individual userid.
 To test any of the API mentioned above :
 
-> Clik on it ( e.g `/externaldata/` )
+- Clik on it ( e.g `/externaldata/` )
 
-> after then click on `Try it out!`
+- after then click on `Try it out!`
 
-> Scroll Down to see the results.
+- Scroll Down to see the results.
+```
 
 
 **Badges will go here**
