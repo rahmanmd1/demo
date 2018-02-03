@@ -101,6 +101,17 @@ curl -u root:password -X GET --header 'Accept: application/json' 'http://localho
 ```shell
 curl -u root:password -X POST --header 'Accept: application/json' -d 'Test' 'http://localhost:8080/DummyApp/count'
 ```
+
+### Testing REQ [ 3 ] : Returns a JSON array with the first N Fibonacci numbers..
+> On the UI hover over and click  REQ [ 3 ] Number Utility API and 
+> click on `POST` 
+> on the fiboNumber text Box supply your number and
+> after then click on `Try it out!`
+> Scroll Down to see the results.
+
+
+
+
 **Badges will go here**
 
 - build status
