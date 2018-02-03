@@ -164,7 +164,11 @@ after then click on `Try it out!`
 Scroll Down to see the results.
 
 ```
+`You can also try it with CURL`
 
+```shell
+curl -u root:password -X GET --header 'Accept: application/json' 'http://localhost:8080/DummyApp/city'
+```
 
 * `POST city/` : Create a New City.
 > Ceate a City :
@@ -177,8 +181,6 @@ Scroll Down to see the results.
   "name": "Foo bar",
   "totalPopulation": 1200
 }
-
-```
 
 
 * `PUT city/` : Update an existing city .
