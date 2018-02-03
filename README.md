@@ -94,9 +94,13 @@ curl -u root:password -X GET --header 'Accept: application/json' 'http://localho
 ### Testing REQ [ 2 ] : Testing unique words and thier counts / frequencies.
 
 > On the UI hover over and click  REQ [ 2 ] Frequency processing API and 
+
 > click on `POST` 
+
 > Here we have two parameters : 'sort' is defaulted to 'asc' . On the 'text' Text box supply your text 
+
 > after then click on `Try it out!`
+
 > Scroll Down to see the results.
 
 `You can also try it with CURL`
@@ -106,10 +110,15 @@ curl -u root:password -X POST --header 'Accept: application/json' -d 'Test' 'htt
 
 ### Testing REQ [ 3 ] : Returns a JSON array with the first N Fibonacci numbers.
 > On the UI hover over and click  REQ [ 3 ] Number Utility API and 
+
 > click on `POST` 
+
 > on the fiboNumber text Box supply your number and
+
 > after then click on `Try it out!`
+
 > Scroll Down to see the results.
+
 `You can also try it with CURL`
 ```shell
 curl -u root:password  -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' 'http://localhost:8080/DummyApp/number/fibonacci/3'
@@ -117,7 +126,9 @@ curl -u root:password  -X POST --header 'Content-Type: application/json' --heade
 
 ## Testing REQ [ 4 ] : Endpoint that creates two threads that become deadlocked with each other.
 > On the UI hover over and click  REQ [ 4 ] Consumer Producer API  and 
+
 > after then click on `Try it out!`
+
 > Scroll Down to see the results.
 
 `You can also try it with CURL`
@@ -127,8 +138,13 @@ curl -u root:password -X GET --header 'Accept: application/json' 'http://localho
 ```
 
 ## Testing REQ [ 6 ] : queries an external REST service using Spring RestTemplate.
+> On the UI hover over and click  REQ [ 6 ] External API  and
 
+> We have Three different APIs
 
+>>/externaldata/
+>>/externaldata/post/{id}
+>>/externaldata/post/{userid}
 
 
 **Badges will go here**
