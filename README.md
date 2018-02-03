@@ -165,18 +165,21 @@ Scroll Down to see the results.
 
 ```
 
+
+* `POST city/` : Create a New City.
 > Ceate a City :
 
+`Click on POST /city , On city text Box supply your json as below `
+
 ```shell
-
-Click on POST /city
-
-On city text Box supply your json as below
+{
+  "description": "My city",
+  "name": "Foo bar",
+  "totalPopulation": 1200
+}
 
 ```
 
-
-* `POST city/` : Create a New City.
 
 * `PUT city/` : Update an existing city .
 
