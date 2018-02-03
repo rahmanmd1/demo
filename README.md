@@ -283,6 +283,9 @@ curl -u root:password -X GET --header 'Accept: application/json' 'http://localho
 - **Where do find the code coverage Reort**
     - /target/jacoco-ut/index.html
     
+- **Can't run server on the port specified**
+    - Change `server.port = {new port}` located in src/main/resources/application.properties. Or provide a JVM option when you run the server from command line.    
+    
 - **How do I make a REST call to get Response in XML format?**
     - make your call as follow : 
     ```shell
@@ -302,4 +305,4 @@ Reach out to me at one of the following places!
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2015 © <a href="http://fvcproductions.com" target="_blank">FVCproductions</a>.
+- Copyright 2015 © 
