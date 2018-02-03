@@ -184,6 +184,18 @@ Click on `POST /city` , On city text Box supply your json as below
 ```
 > after then click on `Try it out!`, Scroll Down to see the results.
 
+With CURL : 
+
+```shell
+
+curl -u root:password -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ \ 
+   "description": "test", \ 
+   "name": "test", \ 
+   "totalPopulation": 1 \ 
+ }'
+
+```
+
 
 * `PUT city/` : Update an existing city .
 
